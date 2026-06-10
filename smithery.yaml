@@ -1,0 +1,14 @@
+startCommand:
+  type: stdio
+  command: python
+  args:
+    - -m
+    - necl_hn_mcp
+configSchema:
+  type: object
+  properties: {}
+  required: []
+  additionalProperties: false
+  description: |
+    necl-hn-mcp requires no configuration. The Hacker News API is public
+    and unlimited — just install and use.

@@ -1,0 +1,16 @@
+{
+  "name": "necl-hn-mcp",
+  "description": "Hacker News tools for AI agents: top stories, story details, comments thread, full-text search via Algolia HN. No API key required — public HN API.",
+  "author": "NeCL",
+  "homepage": "https://neclco.com",
+  "repository": "https://github.com/adjacentai/necl-hn-mcp",
+  "license": "MIT",
+  "version": "0.1.0",
+  "categories": ["productivity", "research", "data", "content"],
+  "tags": ["hacker-news", "hn", "research", "news", "ai-agents", "built-by-necl"],
+  "runtime": {
+    "type": "stdio",
+    "command": "python",
+    "args": ["-m", "necl_hn_mcp"]
+  }
+}
