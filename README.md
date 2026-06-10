@@ -30,28 +30,34 @@ Built by [NeCL](https://neclco.com) — AI engineering studio. Production-tested
 
 ## Install
 
-### Via Smithery (recommended)
+### Via uvx (recommended — no setup)
 
-```bash
-npx -y @smithery/cli install necl-hn-mcp --client claude
-```
-
-### Via Claude Desktop / Claude Code config
-
-Add to your `mcp.json`:
+[uvx](https://docs.astral.sh/uv/) runs the package in an ephemeral env. No `pip install`, no venv. Add to your `mcp.json` (Claude Desktop, Claude Code, or any MCP client):
 
 ```json
 {
   "mcpServers": {
     "necl-hn": {
       "command": "uvx",
-      "args": ["necl-hn-mcp"]
+      "args": [
+        "--from",
+        "git+https://github.com/adjacentai/necl-hn-mcp.git",
+        "necl-hn-mcp"
+      ]
     }
   }
 }
 ```
 
-Or if you prefer pip:
+Don't have `uvx`? Install it: `pip install uv` or `brew install uv`.
+
+### Via pip + python -m
+
+```bash
+pip install git+https://github.com/adjacentai/necl-hn-mcp.git
+```
+
+Then in `mcp.json`:
 
 ```json
 {
@@ -64,25 +70,15 @@ Or if you prefer pip:
 }
 ```
 
-### From source
+### From source (for development)
 
 ```bash
 git clone https://github.com/adjacentai/necl-hn-mcp.git
 cd necl-hn-mcp
-pip install -e .
+pip install -e ".[dev]"
 ```
 
-Then add to your MCP client config:
-```json
-{
-  "mcpServers": {
-    "necl-hn": {
-      "command": "python",
-      "args": ["-m", "necl_hn_mcp"]
-    }
-  }
-}
-```
+Then use the same `python -m necl_hn_mcp` config as above.
 
 ## Example use in Claude
 
