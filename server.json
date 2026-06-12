@@ -5,12 +5,27 @@
   "homepage": "https://neclco.com",
   "repository": "https://github.com/adjacentai/necl-hn-mcp",
   "license": "MIT",
-  "version": "0.1.0",
-  "categories": ["productivity", "research", "data", "content"],
-  "tags": ["hacker-news", "hn", "research", "news", "ai-agents", "built-by-necl"],
+  "version": "0.1.1",
+  "categories": [
+    "productivity",
+    "research",
+    "data",
+    "content"
+  ],
+  "tags": [
+    "hacker-news",
+    "hn",
+    "research",
+    "news",
+    "ai-agents",
+    "built-by-necl"
+  ],
   "runtime": {
     "type": "stdio",
     "command": "python",
-    "args": ["-m", "necl_hn_mcp"]
+    "args": [
+      "-m",
+      "necl_hn_mcp"
+    ]
   }
 }

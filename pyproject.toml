@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "necl-hn-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Hacker News tools for AI agents. No API key required. MCP server by NeCL."
 readme = "README.md"
 requires-python = ">=3.10"
