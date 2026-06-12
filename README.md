@@ -9,7 +9,7 @@
 >
 > **Zero credentials.** Public HN API. Install and use.
 
-Built by [NeCL](https://neclco.com) — AI engineering studio. Production-tested in our own content pipelines (powers [baraban_agent](https://github.com/adjacentai/necl/tree/main/03_DEV/baraban_agent), our internal HN→drafts engine running 3× daily for months).
+Built by [NeCL](https://neclco.com) — AI engineering studio. Production-tested: this is the exact HN layer that powers our internal content agent, running 3× daily for months.
 
 ## Tools
 
@@ -24,7 +24,7 @@ Built by [NeCL](https://neclco.com) — AI engineering studio. Production-tested
 ## Why this MCP
 
 - **Zero credentials, zero config** — public HN API, no rate limits worth worrying about, no signup.
-- **Battle-tested code** — extracted from [baraban_agent](https://github.com/adjacentai/necl/tree/main/03_DEV/baraban_agent), our internal HN-to-drafts content engine that's been running 3×/day for months.
+- **Battle-tested code** — extracted from our internal HN-to-drafts content engine that's been running 3×/day for months.
 - **Built for AI agents** — every tool returns clean structured data that LLMs can chain together (search → top story → comments → summary).
 - **Use case** — content research, trend monitoring, automatic news digests, prompt-context enrichment.
 
