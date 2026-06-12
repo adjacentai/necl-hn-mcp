@@ -131,7 +131,7 @@ necl-hn-mcp (find story) → necl-content-poster (write 3 posts) → you publish
 
 [neclco.com](https://neclco.com) — production AI engineering. RAG systems, voice agents, Telegram bots, custom MCPs and content engines for companies that need more than wrappers.
 
-**Need a custom MCP wired to your internal APIs / databases / SaaS?** [Book a call](https://calendly.com/neclcompany/30min?utm_source=marketplace&utm_medium=mcp&utm_campaign=hn-mcp).
+**Need a custom MCP wired to your internal APIs / databases / SaaS?** Visit [neclco.com](https://neclco.com/?utm_source=marketplace&utm_medium=mcp&utm_campaign=hn-mcp).
 
 ## Development
 
